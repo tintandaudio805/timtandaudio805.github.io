@@ -1,10 +1,81 @@
 body {
-  background-color: black;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 50px;
+    background-color: #1a1a1a;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
-h1 {
-  color: #3498db;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.header {
+    background: linear-gradient(45deg, #1a1a1a, #2c3e50);
+    padding: 40px 0;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.company-name {
+    font-size: 2.5em;
+    color: #3498db;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.services {
+    font-size: 1.5em;
+    color: #ecf0f1;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.contact-info {
+    background: rgba(52, 152, 219, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.phone {
+    font-size: 2em;
+    color: #3498db;
+    margin: 20px 0;
+}
+
+.address {
+    font-size: 1.2em;
+    color: #bdc3c7;
+}
+
+.highlight {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.services-detail {
+    background: rgba(52, 152, 219, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.services-detail h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.services-detail ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services-detail li {
+    margin: 10px 0;
+    color: #ecf0f1;
+    font-size: 1.1em;
 }
